@@ -1,0 +1,45 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": ["react-hooks", "@typescript-eslint"],
+  "extends": ["airbnb-typescript", "prettier"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".d.ts"]
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-filename-extension": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/prop-types": 0,
+    "no-unused-vars": 0,
+    "max-len": 0,
+    "import/extensions": 0,
+    "react/forbid-prop-types": 0,
+    "linebreak-style": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "import/prefer-default-export": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "arrow-body-style": 0,
+    "implicit-arrow-linebreak": 0,
+    "react/no-unescaped-entities": 0,
+    "no-param-reassign": 0,
+    "react-hooks/exhaustive-deps": 1
+  }
+}
