@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const WorkspaceItemWrapper = styled.div`
   padding-top: 15px;
-  padding-left: 5px;
+  padding-left: 20px;
 `;
 
 export const WorkspaceParentLi = styled.li`

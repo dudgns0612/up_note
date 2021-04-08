@@ -8,6 +8,13 @@ type SideMenuWapperProps = {
 
 export const LayoutWrapper = styled.div`
   height: calc(100vh - 3px);
+  ol,
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
 `;
 
 export const HeaderWrapper = styled.div`
