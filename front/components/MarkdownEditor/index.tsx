@@ -1,7 +1,7 @@
 import { useState } from 'react';
+import dynamic from 'next/dynamic';
 import ReactMarkdown from 'react-markdown';
 import { ReactMdeProps } from 'react-mde';
-import dynamic from 'next/dynamic';
 import { MarkdownEditorWrapper } from './style';
 import 'react-mde/lib/styles/css/react-mde-all.css';
 

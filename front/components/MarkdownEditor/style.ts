@@ -1,9 +1,9 @@
 import styled from 'styled-components';
+import { themeBackgroundAndColor } from 'components/CommonStyles';
 
 export const MarkdownEditorWrapper = styled.div`
   .mde-header {
-    background-color: black;
-    color: white;
+    ${themeBackgroundAndColor}
   }
 
   .mde-preview-content {

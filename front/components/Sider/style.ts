@@ -16,7 +16,7 @@ export const MenuWrapper = styled.div`
   font-size: 2.5vh;
 `;
 
-export const WorkspaceHeader = styled.span`
+export const MenuHeader = styled.span`
   display: block;
   font-size: 4vh;
   margin-bottom: 20px;

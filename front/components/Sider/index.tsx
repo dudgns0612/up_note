@@ -1,12 +1,12 @@
-import WorkspaceItem from 'components/WorkspaceItem';
-import { SiderWrapper, MenuWrapper, WorkspaceHeader, FooterWrapper } from './style';
+import MenuItem from 'components/MenuItem';
+import { SiderWrapper, MenuWrapper, MenuHeader, FooterWrapper } from './style';
 
 const Sider = () => {
   return (
     <SiderWrapper>
       <MenuWrapper>
-        <WorkspaceHeader>Workspace</WorkspaceHeader>
-        <WorkspaceItem />
+        <MenuHeader>Workspace</MenuHeader>
+        <MenuItem />
       </MenuWrapper>
       <FooterWrapper>up_node @ 2021</FooterWrapper>
     </SiderWrapper>

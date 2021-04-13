@@ -5,3 +5,8 @@ export const flexContentCenter = css`
   justify-content: center;
   align-items: center;
 `;
+
+export const themeBackgroundAndColor = css`
+  background-color: #323233;
+  color: white;
+`;

@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 import { CloseOutlined, MenuOutlined } from '@ant-design/icons';
-import { flexContentCenter } from 'components/CommonStyles';
+import {
+  flexContentCenter,
+  themeBackgroundAndColor,
+} from 'components/CommonStyles';
 
 type SideMenuWapperProps = {
   isOpen: boolean;
@@ -21,7 +24,8 @@ export const HeaderWrapper = styled.div`
   position: fixed;
   display: flex;
   width: 100%;
-  height: 80px;
+  height: 60px;
+  ${themeBackgroundAndColor}
 
   div:nth-child(1) {
     width: 10%;
@@ -54,7 +58,7 @@ export const HeaderWrapper = styled.div`
 
 export const ContentWrapper = styled.div`
   padding-top: 80px;
-  margin: 0 15vw;
+  margin: 0 20vw;
   height: 100%;
 
   @media only screen and (max-width: 800px) {
@@ -69,8 +73,7 @@ export const SideMenuWapper = styled.div<SideMenuWapperProps>`
   left: ${(props) => (props.isOpen ? '0px' : '-400px')};
   z-index: 3;
   top: 0;
-  background-color: black;
-  color: white;
+  ${themeBackgroundAndColor}
   overflow-x: hidden;
   transition: 0.5s ease-in-out;
   border-right: 1px solid lightgrey;

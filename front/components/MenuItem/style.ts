@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-export const WorkspaceItemWrapper = styled.div`
+export const MenuItemWrapper = styled.div`
   padding-top: 15px;
   padding-left: 20px;
 `;
 
-export const WorkspaceParentLi = styled.li`
+export const MenuParentLi = styled.li`
   font-size: 3vh;
   margin-bottom: 20px;
 

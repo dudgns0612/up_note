@@ -1,28 +1,28 @@
-import { WorkspaceItemWrapper, WorkspaceParentLi } from './style';
+import { MenuItemWrapper, MenuParentLi } from './style';
 
-const WorkspaceItem = () => {
+const MenuItem = () => {
   return (
-    <WorkspaceItemWrapper>
+    <MenuItemWrapper>
       <ul>
-        <WorkspaceParentLi>
+        <MenuParentLi>
           <span>Develop (33)</span>
           <ul>
             <li> - menu (12) </li>
             <li> - menu (11) </li>
             <li> - menu (10) </li>
           </ul>
-        </WorkspaceParentLi>
-        <WorkspaceParentLi>
+        </MenuParentLi>
+        <MenuParentLi>
           <span>Enviroment</span>
           <ul>
             <li> - menu</li>
             <li> - menu</li>
             <li> - menu</li>
           </ul>
-        </WorkspaceParentLi>
+        </MenuParentLi>
       </ul>
-    </WorkspaceItemWrapper>
+    </MenuItemWrapper>
   );
 };
 
-export default WorkspaceItem;
+export default MenuItem;
